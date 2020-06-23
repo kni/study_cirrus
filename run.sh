@@ -1,19 +1,15 @@
-#!sh
+#!bash
 set -v
 pwd
 echo $HOME
 echo $PATH
 
-/usr/local/bin/uconv --help
+declare -a rargs
 
-/usr/local/bin/mlton -h
-
-cat /usr/local/bin/mlton
-
-echo '#!/usr/bin/env bash' > foo
+echo '#!bash' > foo
 echo 'set -v' >> foo
 cat /usr/local/bin/mlton >> foo
-sh foo
+bash foo
 
 # git clone https://github.com/MLton/mlton.git mlton_git
 # cd mlton_git
