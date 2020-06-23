@@ -1,7 +1,8 @@
 #!sh
 pwd
-
+echo $HOME
 echo $PATH
+export PATH="$PATH:/usr/local/bin"
 
 whereis mlton
 
