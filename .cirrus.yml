@@ -1,6 +1,9 @@
 freebsd_instance:
   image_family: freebsd-12-1
 
+env:
+  PATH: ${PATH}:/usr/local/bin
+
 task:
   install_script: pkg install -y gmp gmake bash mlton git
   script: sh run.sh
