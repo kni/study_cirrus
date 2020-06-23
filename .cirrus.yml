@@ -2,5 +2,5 @@ freebsd_instance:
   image_family: freebsd-12-1
 
 task:
-  install_script: pkg install -y gmp gmake bash mlton
+  install_script: pkg install -y gmp gmake bash mlton git-lite
   script: bash run.sh
