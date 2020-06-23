@@ -3,4 +3,4 @@ freebsd_instance:
 
 task:
   install_script: pkg install -y gmp gmake bash mlton
-  script: sh run.sh
+  script: bash run.sh
