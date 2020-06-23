@@ -3,13 +3,11 @@ pwd
 echo $HOME
 echo $PATH
 
-bash -c 'echo hello bash'
-
-ls /usr/local/bin/
-echo XXX
-ls /usr/local/bin/mlton
+/usr/local/bin/uconv --help
 
 /usr/local/bin/mlton -h
+
+head /usr/local/bin/mlton
 
 # git clone https://github.com/MLton/mlton.git mlton_git
 # cd mlton_git
