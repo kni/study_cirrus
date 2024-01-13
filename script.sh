@@ -7,7 +7,7 @@ echo ======
 ls -l -d /usr/ports/lang/perl5*
 echo ======
 
-portsnap fetch update 
+portsnap cron update 
 echo ======
 
 grep PERL5_DEFAULT /usr/ports/Mk/bsd.default-versions.mk
