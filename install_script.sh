@@ -16,5 +16,10 @@ echo
 top -b
 
 echo
+echo pdf.conf
+ls -l /etc/pkg/*
+cat /etc/pkg/*
+
+echo
 echo ls
 ls
