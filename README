@@ -1,3 +1,6 @@
 Build MLton on FreeBSD
 
 See .cirrus.yml
+
+https://cirrus-ci.org/guide/FreeBSD/
+https://cirrus-ci.org/guide/writing-tasks/#artifacts-instruction
