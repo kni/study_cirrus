@@ -1,8 +1,18 @@
 #!/bin/sh
 set -e
 echo OK
-pwd
-uname -a
-freebsd-version
-dmesg | head -n 20
-ls -l /usr/ports/ | head
+
+echo -n 'pwd: ' && pwd
+echo -n 'uname: ' && uname -a
+echo -n 'freebsd-version: ' && freebsd-version
+
+echo
+echo dmesg
+dmesg | head -n 120
+
+echo
+top -b
+
+
+echo
+ls -l /usr/ports/README
