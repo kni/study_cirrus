@@ -11,3 +11,10 @@ https://cirrus-ci.org/
 https://cirrus-ci.org/guide/FreeBSD/
 
 https://cirrus-ci.org/guide/writing-tasks/#artifacts-instruction
+
+
+## Env
+
+pwd is /tmp/cirrus-ci-build
+
+There is /usr/ports/ 
