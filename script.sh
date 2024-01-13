@@ -17,7 +17,7 @@ ln -s /usr/local/bin/python2.7 /usr/local/bin/python
 ln -s /usr/local/bin/python2.7-config /usr/local/bin/python-config
 ls -l /usr/local/bin/python*
 
-ln -s /tmp/cirrus-ci-build/seamonkey-2.53.13 /usr/ports/www/seamonkey
+ln -s /tmp/cirrus-ci-build/seamonkey /usr/ports/www/seamonkey
 cd /usr/ports/www/seamonkey
 export SHELL=/bin/sh
 make makesum
