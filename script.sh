@@ -2,13 +2,9 @@
 set -v
 set -e
 
-pkg search perl
+grep PERL5_DEFAULT /usr/ports/Mk/bsd.default-versions.mk
 echo ======
-
-pkg upgrade -y
-echo ======
-
-pkg search perl
+ls -l -d /usr/ports/lang/perl5*
 echo ======
 
 ln -s /tmp/cirrus-ci-build/seamonkey-2.53.13 /usr/ports/www/seamonkey
