@@ -1,5 +1,5 @@
 freebsd_instance:
-  image_family: freebsd-14-0
+  image_family: freebsd-15-0-snap
 
 task:
   timeout_in: 120m
