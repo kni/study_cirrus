@@ -1,5 +1,5 @@
 PORTNAME=	seamonkey
-DISTVERSION=    2.53.13
+DISTVERSION=    2.53.18
 PORTREVISION=	1
 CATEGORIES?=	www mail news editors irc
 MASTER_SITES=	MOZILLA/${PORTNAME}/releases/${DISTVERSION}/source
