@@ -32,7 +32,8 @@ BUILD_DEPENDS+=	nspr>=4.26:devel/nspr \
 		nasm:devel/nasm \
 		yasm:devel/yasm \
 		zip:archivers/zip \
-		${RUST_DEFAULT}>=1.47:lang/${RUST_DEFAULT}
+		${RUST_DEFAULT}>=1.47:lang/${RUST_DEFAULT} \
+		devel/rust-cbindgen
 
 
 #MAKE_CMD=gmake
