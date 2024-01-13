@@ -1,7 +1,5 @@
-#!/usr/bin/env bash
-
+#!/bin/sh
 set -e
-declare -a rargs
 echo OK
 pwd
 uname -a
