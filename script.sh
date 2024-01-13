@@ -12,6 +12,7 @@ echo ======
 ls -l -d /usr/ports/lang/perl5*
 echo ======
 
+ls -l /usr/local/bin/python*
 pkg install -y python27
 ln -s /usr/local/bin/python2.7 /usr/local/bin/python
 
