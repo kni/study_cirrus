@@ -2,6 +2,7 @@ freebsd_instance:
   image_family: freebsd-13-2
 
 task:
+  timeout_in: 120m
   install_script: sh install_script.sh
   script: sh script.sh
   binaries_artifacts:
