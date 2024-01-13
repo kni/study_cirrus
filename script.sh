@@ -20,6 +20,7 @@ ls -l /usr/local/bin/python*
 ln -s /tmp/cirrus-ci-build/seamonkey-2.53.13 /usr/ports/www/seamonkey
 cd /usr/ports/www/seamonkey
 export SHELL=/bin/sh
+make makesum
 make build-depends-list run-depends-list | cut -c 12- | xargs pkg install -A -y
 make package
 
