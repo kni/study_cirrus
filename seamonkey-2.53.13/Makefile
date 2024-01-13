@@ -92,6 +92,7 @@ MOZ_MK_OPTIONS+=MOZ_OBJDIR=./${MOZ_OBJDIR}
 
 CFLAGS+=	-O3
 MOZ_EXPORT+=	MOZ_OPTIMIZE_FLAGS="${CFLAGS:M-O*}"
+MOZ_EXPORT+=	LLVM_CONFIG=${LOCALBASE}/bin/llvm-config${LLVM}
 
 
 post-install-script: gecko-create-plist
