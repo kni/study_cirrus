@@ -4,8 +4,5 @@ freebsd_instance:
 task:
   install_script: sh install_script.sh
   script: sh script.sh
-
-build_and_test_task:
-  # instructions to build and test
   binaries_artifacts:
     path: "pkg/*"
